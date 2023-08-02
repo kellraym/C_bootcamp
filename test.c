@@ -22,6 +22,7 @@ float *get_test_vals(double x)
 {
     float *vals = malloc(sizeof(double) * 6);
     float modifiers[] = {.1, .01, .001, -.001, -.01, -.1};
+    printf("Hello\n");
     for (int i = 0; i < 6; i++)
     {
         *(vals + i) = x + modifiers[i];
