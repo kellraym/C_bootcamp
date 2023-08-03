@@ -30,6 +30,8 @@ float *get_test_vals(double x)
     return vals;
 }
 
+//adding an important comment
+
 int main(void)
 {
     float x;
